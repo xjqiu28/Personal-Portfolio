@@ -1,0 +1,13 @@
+.section___pic-container img {
+    width: 500px; /* Adjust size as needed */
+    height: 500px;
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: cover; /* Ensures the image is cropped properly */
+    display: block;
+  }
+
+  #profile
+  {
+    display: flex;
+    
+  }
