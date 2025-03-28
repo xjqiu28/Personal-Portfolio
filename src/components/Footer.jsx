@@ -18,7 +18,9 @@ function Footer() {
               </li>
             </ul>
           </div>
+          <a href="/">Back to Top</a>
         </nav>
+        
       </footer>
     </>
   );

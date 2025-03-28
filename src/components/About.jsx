@@ -38,8 +38,8 @@ With over a year of experience working with React, C#, and web development techn
 I'm passionate about continuous learning and believe that coding isn’t just about solving problems—it's about creating experiences that enrich people's lives. Whether it’s through developing new software or just exploring new tech, I’m always excited to learn and grow in this dynamic field.</p>
                 </div>
             </div>
-        </div>
-        <img src={arrow} alt="Arrow Icon" className="icon arrow" onClick={() => location.href='./#experience'}/>
+        </div><img src={arrow} alt="Arrow Icon" className="icon arrow" onClick={() => location.href='./#experience'}/>
+        
       </section>
     </>
   );

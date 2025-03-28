@@ -1,11 +1,11 @@
 #about {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     padding-bottom: 5rem; 
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .about-containers {
@@ -35,13 +35,6 @@
     height: auto; 
 }
 
-.arrow
-{
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-}
-
 .details-container{
     padding:1.5rem;
     flex: 1;
@@ -69,4 +62,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 2rem;
 }

@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 import "../styles/Profile.css";
-import toggleMenu from "../../script";
 import profilePicture from "../assets/profile-picture.png";
 import resume from "../assets/Xin_Jin_Qiu_Resume.pdf";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
-import email from "../assets/email.png";
+import arrow from "../assets/arrow.png";
 
 function Profile() {
   const roles = [
@@ -76,6 +75,7 @@ function Profile() {
             />
           </div>
         </div>
+        <img src={arrow} alt="Arrow Icon" className="icon to-about" onClick={()=> location.href='./#about'} />
       </section>
     </>
   );

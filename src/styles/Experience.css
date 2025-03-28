@@ -1,7 +1,8 @@
 #experience {
   position: relative;
-  margin-top: 5rem; 
+  margin-top: 10rem; 
   padding-top: 3rem;
+  height: 80vh;
 }
 
 .color-container {
@@ -70,3 +71,17 @@
   justify-content: center;
   gap: 1rem;
 }
+
+.tech-stack p
+{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+.tech-stack
+{
+  display:flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+

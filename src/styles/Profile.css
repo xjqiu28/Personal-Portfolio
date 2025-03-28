@@ -25,9 +25,9 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 50vh;
   margin-top: 10rem;
-  margin-bottom: 5rem;
+  margin-bottom: 0;
 }
 
 .section__text {
@@ -147,4 +147,11 @@ section {
 
 .btn-container {
   gap: 1rem;
+}
+
+.to-about
+{
+  position: absolute;
+  bottom: 25rem;
+  right: 5rem;
 }
