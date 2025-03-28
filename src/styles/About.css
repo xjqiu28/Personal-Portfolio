@@ -1,12 +1,18 @@
-#about
-{
+#about {
     position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Ensures everything stays centered */
+    padding-bottom: 5rem; /* Adds space at bottom to prevent overlap */
 }
 
-.about-containers{
+.about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
 }
 
 .about-details-container
@@ -54,11 +60,14 @@
     text-align: center;
 }
 
-.section-container
-{
+.section-container {
     gap: 4rem;
-    height: 80%;
+    min-height: 100vh; /* Ensures it expands fully */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content properly */
 }
+
 
 .section__pic-container
 _{

@@ -1,5 +1,7 @@
 #experience {
   position: relative;
+  margin-top: 5rem; /* Increase space between About & Experience */
+  padding-top: 3rem;
 }
 
 .color-container {
