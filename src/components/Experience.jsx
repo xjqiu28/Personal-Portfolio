@@ -6,7 +6,7 @@ import arrow from "../assets/arrow.png";
 import shieldql from "../assets/ShieldQL.png";
 import circuitBoard from "../assets/CircuitBoard.png";
 import mewantfood from "../assets/MeWantFood.png";
-import codethedream from "../assets/ctd.png"
+import codethedream from "../assets/CTD.png"
 
 function Experience() {
   return (
