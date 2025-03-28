@@ -18,7 +18,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <a href="/">Back to Top</a>
+          <p class='back-top' onClick={() => location.href='./#nav'}>Back to Top</p>
         </nav>
         
       </footer>

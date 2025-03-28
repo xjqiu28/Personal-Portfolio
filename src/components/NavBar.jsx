@@ -10,6 +10,7 @@ function NavBar({ darkMode, setDarkMode }) {
 
   return (
     <>
+    <div id="nav"></div>
       <nav id="desktop-nav">
         <div class="logo">Xin Jin Qiu</div>
         <div>
