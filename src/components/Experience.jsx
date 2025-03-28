@@ -6,6 +6,7 @@ import arrow from "../assets/arrow.png";
 import shieldql from "../assets/ShieldQL.png";
 import circuitBoard from "../assets/CircuitBoard.png";
 import mewantfood from "../assets/MeWantFood.png";
+import codethedream from "../assets/ctd.png"
 
 function Experience() {
   return (
@@ -21,8 +22,9 @@ function Experience() {
               <h2 className="experience-sub-title experience-title">
                 ShieldQL
               </h2>
+              <p className="company-name">Developed by <span className="company-highlight">ShieldQL (Open Source)</span></p>
               <div className="tech-stack">
-                <p>Tech Stack</p>
+                <p>Technologies Used</p>
                 <span className="tech-item">JavaScript (ES6+)</span>
                 <span className="tech-item">Node.js</span>
                 <span className="tech-item">MongoDB</span>
@@ -50,8 +52,9 @@ function Experience() {
               <h2 className="experience-sub-title experience-title">
                 Audition AI
               </h2>
+              <p className="company-name">Developed by <span className="company-highlight">Saberin Software</span></p>
               <div className="tech-stack">
-                <p>Tech Stack</p>
+                <p>Technologies Used</p>
                 <span className="tech-item">C#</span>
                 <span className="tech-item">ASP.Net</span>
                 <span className="tech-item">Blazor</span>
@@ -71,27 +74,27 @@ function Experience() {
             </div>
             <div className="details-container color-container">
               <div className="article-container">
-                <img src={mewantfood} alt="MeWantFood" class="experience-img" />
+                <img src={codethedream} alt="Code The Dream" class="experience-img ctd" />
               </div>
               <h2 className="experience-sub-title experience-title">
-                MeWantFood
+                Code The Dream
               </h2>
               <div className="tech-stack">
-                <p>Tech Stack</p>
+                <p>Technologies Used</p>
                 <span className="tech-item">React</span>
                 <span className="tech-item">MongoDB</span>
-                <span className="tech-item">SASS</span>
+                <span className="tech-item">Node.js</span>
                 <span className="tech-item">JavaScript</span>
-                <span className="tech-item">Webpack</span>
+                <span className="tech-item">JWT (JSON Web Token)</span>
               </div>
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 experience-btn"
                   onClick={() =>
-                    (location.href = "https://github.com/Axolotl-41/MeWantFood")
+                    (location.href = "https://codethedream.org/")
                   }
                 >
-                  Github
+                  Company Website
                 </button>
               </div>
             </div>

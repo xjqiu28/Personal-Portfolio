@@ -21,7 +21,10 @@
     bottom: 4rem;
 }
 
-
+.back-top:hover
+{
+  cursor: pointer;
+}
 
 /* Media Queries for responsiveness */
 @media screen and (max-width: 1400px) {

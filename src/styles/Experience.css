@@ -85,3 +85,27 @@
   margin: 1rem;
 }
 
+
+.company-name {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #666;
+  margin-top: -10px;
+}
+
+.company-highlight {
+  font-weight: bold;
+  color: #444;
+}
+
+.dark .company-highlight
+{
+  font-weight: bold;
+  color: white;
+}
+
+.ctd
+{
+  width: 72.5%;
+}
