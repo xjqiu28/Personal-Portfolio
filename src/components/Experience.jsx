@@ -34,7 +34,7 @@ function Experience() {
                   className="btn btn-color-2 experience-btn"
                   onClick={() => (location.href = "https://www.shieldql.com/")}
                 >
-                  View
+                  ShieldQL Product Page
                 </button>
               </div>
             </div>
