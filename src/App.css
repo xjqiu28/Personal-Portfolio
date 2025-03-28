@@ -127,8 +127,7 @@
   #profile,
   #about,
   #experience,
-  #contact,
-  footer {
+  #contact {
     display: block;
     justify-self: center;
     width: 80%;
@@ -138,7 +137,10 @@
   }
 
   footer {
+    display: block;
     margin-top: 2rem;
+    width: fit-content;
+    justify-self: center;
   }
 
   .experience-details-container {
