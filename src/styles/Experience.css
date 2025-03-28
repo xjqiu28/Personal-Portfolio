@@ -1,19 +1,19 @@
 #experience {
   position: relative;
-  margin-top: 5rem; /* Increase space between About & Experience */
+  margin-top: 5rem; 
   padding-top: 3rem;
 }
 
 .color-container {
-  border: 0.1rem solid rgb(163, 163, 163); /* Unified border */
+  border: 0.1rem solid rgb(163, 163, 163); 
   background: rgb(250, 250, 250);
 }
 
 .experience-img {
   border-radius: 2rem;
-  width: 100%; /* Changed to 100% for consistency */
-  height: 100%; /* Adjusted to maintain square ratio */
-  object-fit: cover; /* Ensures the image covers the entire area */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
 }
 
 .experience-title {
@@ -23,7 +23,7 @@
 
 .experience-btn {
   color: black;
-  border: 0.1rem solid rgb(163, 163, 163); /* Unified border color */
+  border: 0.1rem solid rgb(163, 163, 163); 
 }
 
 .experience-sub-title {
@@ -45,7 +45,7 @@
 
 .article-container {
   display: flex;
-  text-align: left; /* Changed for consistency */
+  text-align: left; 
   flex-wrap: wrap;
   gap: 2.5rem;
   justify-content: space-around;
@@ -56,7 +56,7 @@
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: 0.1rem solid rgb(163, 163, 163); /* Unified border color */
+  border: 0.1rem solid rgb(163, 163, 163); 
   text-align: center;
 }
 

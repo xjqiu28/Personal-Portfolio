@@ -3,8 +3,8 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Ensures everything stays centered */
-    padding-bottom: 5rem; /* Adds space at bottom to prevent overlap */
+    justify-content: center; 
+    padding-bottom: 5rem; 
     margin-top: 5rem;
 }
 
@@ -13,7 +13,7 @@
     margin-bottom: 2rem;
     margin-top: 2rem;
     display: flex;
-    flex-wrap: wrap; /* Ensures responsiveness */
+    flex-wrap: wrap; 
 }
 
 .about-details-container
@@ -29,10 +29,10 @@
 
 .about-pic {
     border-radius: 2rem;
-    width: 25vw; /* Default size relative to viewport */
-    max-width: 350px; /* Ensures it doesn’t get too big */
-    min-width: 200px; /* Prevents it from getting too small */
-    height: auto; /* Maintains aspect ratio */
+    width: 25vw; 
+    max-width: 350px; 
+    min-width: 200px; 
+    height: auto; 
 }
 
 .arrow
@@ -65,7 +65,7 @@
 
 .section__pic-container {
     width: 100%;
-    max-width: 400px; /* Limits how big the container can get */
+    max-width: 400px; 
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,4 +1,4 @@
-/* General styling */
+
 nav,
 .nav-links {
   display: flex;
@@ -17,32 +17,32 @@ nav {
 }
 
 a {
-  color: #444; /* Darker shade for better contrast */
+  color: #444; 
   text-decoration: none;
-  text-decoration-color: #bbb; /* Subtle underline color */
+  text-decoration-color: #bbb; 
 }
 
 a:hover {
-  color: #3498db; /* Brighter hover color */
+  color: #3498db;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: #3498db; /* Blue underline on hover */
+  text-decoration-color: #3498db; 
 }
 
 .dark a {
-  color: #fff; /* White text in dark mode */
+  color: #fff; 
   text-decoration: none;
-  text-decoration-color: #bbb; /* Lighter underline color for dark mode */
+  text-decoration-color: #bbb; 
 }
 
 .dark a:hover {
-  color: #ddd; /* Brighter hover color */
+  color: #ddd; 
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: #4a90e2; /* Light blue underline */
+  text-decoration-color: #4a90e2; 
 }
 
-/* Logo */
+
 .logo {
   font-size: 2rem;
 }
@@ -51,7 +51,6 @@ a:hover {
   cursor: pointer;
 }
 
-/* Hamburger Menu */
 #hamburger-nav {
   display: none;
 }
@@ -73,12 +72,12 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: #444; /* Default to dark gray for the hamburger icon */
+  background-color: #444; 
   transition: all 0.3s ease-in-out;
 }
 
 .dark .hamburger-icon span {
-  background-color: #fff; /* White for hamburger icon in dark mode */
+  background-color: #fff; 
   transition: all 0.3s ease-in-out;
 }
 
@@ -97,7 +96,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #222; /* Dark gray for menu links in dark mode */
+  background-color: #222; 
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -109,7 +108,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: #444; /* Ensure visible color for menu links */
+  color: #444; 
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -119,7 +118,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: #fff; /* White text in dark mode */
+  color: #fff; 
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }

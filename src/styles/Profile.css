@@ -1,8 +1,8 @@
 .section___pic-container img {
-  width: 400px; /* Adjust size as needed */
+  width: 400px;
   height: 400px;
-  border-radius: 50%; /* Makes it a circle */
-  object-fit: cover; /* Ensures the image is cropped properly */
+  border-radius: 50%;
+  object-fit: cover; 
   display: block;
 }
 
@@ -55,12 +55,12 @@ section {
   min-width: 300px;
 }
 
-/* When fading out */
+
 .fade-out {
     opacity: 0;
   }
   
-  /* When fading in */
+
   .fade-in {
     opacity: 1;
   }
