@@ -82,6 +82,11 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .to-about
+  {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -216,4 +221,5 @@
     height: 100%;
     overflow: auto;
   }
+  
 }
