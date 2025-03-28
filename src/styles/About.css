@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center; /* Ensures everything stays centered */
     padding-bottom: 5rem; /* Adds space at bottom to prevent overlap */
+    margin-top: 5rem;
 }
 
 .about-containers {
@@ -26,10 +27,12 @@
     display: flex;
 }
 
-.about-pic
-{
+.about-pic {
     border-radius: 2rem;
-    width: 25vw;
+    width: 25vw; /* Default size relative to viewport */
+    max-width: 350px; /* Ensures it doesn’t get too big */
+    min-width: 200px; /* Prevents it from getting too small */
+    height: auto; /* Maintains aspect ratio */
 }
 
 .arrow
@@ -60,18 +63,10 @@
     text-align: center;
 }
 
-.section-container {
-    gap: 4rem;
-    min-height: 100vh; /* Ensures it expands fully */
+.section__pic-container {
+    width: 100%;
+    max-width: 400px; /* Limits how big the container can get */
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers content properly */
-}
-
-
-.section__pic-container
-_{
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    justify-content: center;
+    align-items: center;
 }
