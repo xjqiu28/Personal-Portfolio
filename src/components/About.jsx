@@ -22,12 +22,12 @@ function About() {
                     <div className="details-container">
                         <FaCode size={40} color="black" className="icon"/>
                         <h3>Experience</h3>
-                        <p>1+ Years <br />Frontend Development</p>
+                        <p>1+ Years <br />Full-Stack Development</p>
                     </div>
                     <div className="details-container">
                     <FaGraduationCap size={40} color="black" className="icon"/>
                         <h3>Education</h3>
-                        <p>B.Sc. Appled Mathematics and Statisticcs<br />Frontend Development</p>
+                        <p>B.Sc. Appled Mathematics and Statistics</p>
                     </div>
                 </div>
                 <div className="text-container">
