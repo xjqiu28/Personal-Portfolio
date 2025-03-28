@@ -1,13 +1,148 @@
 .section___pic-container img {
-    width: 500px; /* Adjust size as needed */
-    height: 500px;
-    border-radius: 50%; /* Makes it a circle */
-    object-fit: cover; /* Ensures the image is cropped properly */
-    display: block;
+  width: 400px; /* Adjust size as needed */
+  height: 400px;
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover; /* Ensures the image is cropped properly */
+  display: block;
+}
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+  margin-top: 10rem;
+}
+
+.section__text {
+  justify-self: center;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+
+.dark .section__text__p1, .dark .section__text__p2
+{
+    color: white;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  transition: opacity 0.5s ease-in-out;
+  min-width: 300px;
+}
+
+/* When fading out */
+.fade-out {
+    opacity: 0;
+  }
+  
+  /* When fading in */
+  .fade-in {
+    opacity: 1;
   }
 
-  #profile
-  {
-    display: flex;
-    
-  }
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.dark .icon{
+    filter: invert(1);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8 rem;
+  border-radius: 1rem;
+}
+
+.contact-info-button,
+.resume-button {
+  border: rbg(53, 53, 53) 0.1rem;
+}
+
+
+.contact-info-button:hover,
+.resume-button:hover {
+  cursor: pointer;
+}
+
+.contact-info-button,
+.resume-button:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.dark .contact-info-button, .dark .resume-button:hover
+{
+    background: rgb(255,255,255);
+    color: black;
+}
+
+.contact-info-button:hover {
+  background: rgb(200, 200, 200);
+  color: rgb(30,30,30);
+}
+
+.dark .contact-info-button:hover
+{
+    background: rgb(100,100,100);
+    color: white;
+}
+
+.resume-button {
+  background-color: none;
+}
+
+.dark .resume-button
+{
+    background-color: rgb(0,0,0);
+    color: white;
+}
+
+.resume-button:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+  gap: 1rem;
+}
